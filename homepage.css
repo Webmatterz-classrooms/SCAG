@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.heading {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.heading a {
+  color: black;
+}
+
+.heading img {
+  margin-left: 200px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(scrabble\ tiles.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.h1 {
+  color: rgb(243, 175, 1);
+}
+.hero .h1 {
+  border-right: solid 2px rgb(168, 164, 164);
+  padding-right: 40px;
+}
+
+.hero .texth1 {
+  padding-left: 40px;
+}
+
+.sections {
+  margin-block: 30px;
+  text-align: center;
+}
+
+.sections button {
+  border: none;
+  background: rgb(221, 161, 9);
+  padding: 20px;
+  border-radius: 15px;
+  margin-block: 30px;
+  font-size: 18px;
+}
+
+.sections .row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sections .row1 button {
+  margin-right: 20px;
+}
+
+.sections .row2 {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+}
+
+.sections .row3 {
+  display: flex;
+  gap: 30px;
+}
+.start {
+  margin-left: 50px;
+}
+
+.start1 {
+  margin-left: 200px;
+}
+
+.start2 {
+  margin-left: 350px;
+}
+
+.dates {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  background-color: burlywood;
+  padding: 20px;
+}
+.dates p {
+  margin-top: 10px;
+}
+.sch-head {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+.schedule-body {
+  margin-top: 30px;
+  margin-inline: 100px 400px;
+}
+
+.schedule p {
+  margin-bottom: 20px;
+}
+
+.schedule th,
+td {
+  border: 1px solid;
+}
+
+.schedule table {
+  border-collapse: collapse;
+}
+
+.schedule table th {
+  padding: 10px;
+}
+
+.schedule table td {
+  padding: 10px;
+}
+.reg-head {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+.registration-body {
+  margin-top: 30px;
+  margin-inline: 100px 400px;
+}
+.registration p {
+  margin-block: 20px;
+}
+.registration h4 {
+  margin-bottom: 10px;
+}
+/* 
+    .registration .fees-details {
+      margin-bottom: 20px;
+    }
+    .registration .fees-details p {
+      margin-bottom: 15px;
+    } */
+
+.fees-notice {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.fees-notice2 {
+  margin-bottom: 20px;
+  color: rgb(240, 12, 12);
+  font-weight: bolder;
+}
+
+a {
+  color: rgb(240, 12, 12);
+  font-weight: bolder;
+}
+
+.registration h4 {
+  margin-top: 20px;
+}
+
+.conditions-head {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+.conditions-body {
+  margin-top: 30px;
+  margin-inline: 100px 400px;
+}
+
+.conditions p {
+  margin-block: 20px;
+}
+
+.conditions h4 {
+  margin-block: 20px;
+}
+
+.equipment-head {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+
+.equipment-body {
+  margin-top: 30px;
+  margin-inline: 100px 400px;
+}
+
+.apartment {
+  margin-top: 30px;
+  margin-inline: 100px;
+}
+
+.caption {
+  margin-block: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.hotel {
+  width: 800px;
+}
+
+.reservation h4 {
+  margin-block: 20px;
+}
+.reservation p {
+  margin-block: 15px;
+}
+.reservation {
+  margin-top: 30px;
+  margin-inline: 100px 400px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(scrabble\ tiles.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+/* .logo img {
+      height: 80px;
+    } */
+.icons {
+  margin-top: 20px;
+  display: flex;
+}
+.icons i {
+  background-color: rgb(243, 175, 1);
+  color: black;
+  padding: 10px;
+  margin-right: 25px;
+}
+.second-column {
+  margin-left: 100px;
+}
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.quick-links a {
+  text-decoration: none;
+  color: white;
+  margin-block: 15px;
+}
+.third-column {
+  margin-right: ;
+}
+.third-column p {
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+.third-column input {
+  border-radius: 20px;
+  padding-block: 15px 12px;
+  padding-inline: 15px 6px;
+}
+.third-column button {
+  border-radius: 15px;
+  padding: 13px;
+  background-color: rgb(243, 175, 1);
+}
+.to-position {
+  position: relative;
+}
+.to-position input {
+  position: inherit;
+}
+.to-position button {
+  position: absolute;
+  right: 55%;
+}
